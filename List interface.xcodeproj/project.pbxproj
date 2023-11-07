@@ -11,6 +11,8 @@
 		479832B42AF97708003DA44E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479832B32AF97708003DA44E /* ContentView.swift */; };
 		479832B62AF9770A003DA44E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 479832B52AF9770A003DA44E /* Assets.xcassets */; };
 		479832B92AF9770A003DA44E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 479832B82AF9770A003DA44E /* Preview Assets.xcassets */; };
+		47C51B0C2AF9BE3000F42906 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C51B0B2AF9BE3000F42906 /* CircleButton.swift */; };
+		47C51B0E2AF9C08000F42906 /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C51B0D2AF9C08000F42906 /* TaskList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		479832B32AF97708003DA44E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		479832B52AF9770A003DA44E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		479832B82AF9770A003DA44E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		47C51B0B2AF9BE3000F42906 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		47C51B0D2AF9C08000F42906 /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				479832B82AF9770A003DA44E /* Preview Assets.xcassets */,
+				47C51B0B2AF9BE3000F42906 /* CircleButton.swift */,
+				47C51B0D2AF9C08000F42906 /* TaskList.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47C51B0E2AF9C08000F42906 /* TaskList.swift in Sources */,
+				47C51B0C2AF9BE3000F42906 /* CircleButton.swift in Sources */,
 				479832B42AF97708003DA44E /* ContentView.swift in Sources */,
 				479832B22AF97708003DA44E /* List_interfaceApp.swift in Sources */,
 			);
@@ -280,6 +288,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +318,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
