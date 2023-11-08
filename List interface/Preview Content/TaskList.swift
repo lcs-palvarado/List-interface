@@ -23,13 +23,20 @@ struct TaskList: View {
                         .foregroundColor(.white)
                         .frame(width: 17)
                 }
-              Text(taskName)
-                    .foregroundColor(.black)
-                    .font(.system(size: 22))
+                HStack {
+                    Text(taskName)
+                        .foregroundColor(.black)
+                    .font(.system(size: 19))
+                    Spacer()
+                }
             }
-            Text(taskDate)
-                .foregroundColor(.gray)
-                .font(.system(size: 20))
+            HStack {
+                Text(taskDate)
+                    .padding(.horizontal)
+                    .foregroundColor(.gray)
+                .font(.system(size: 17))
+                Spacer()
+            }
             
             
         }
